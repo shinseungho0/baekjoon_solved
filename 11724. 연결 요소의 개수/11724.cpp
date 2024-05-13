@@ -8,7 +8,7 @@ vector<vector<int>>v(1001, vector<int>(1001, 0));
 vector<bool>visit;
 
 int main() {
-	int n, m; // n은 노드의 개수, m은 간선의 개수
+	int n, m; // n?� ?�드??개수, m?� 간선??개수
 	cin >> n >> m;
 	
 	visit = vector<bool>(n + 1, false);
